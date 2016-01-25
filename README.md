@@ -5,15 +5,14 @@ better for your repo.
 
 ## Presentation Logistics
 
-* FLOSS Community Metrics Meeting 
+* [FLOSS Community Metrics Meeting](http://flosscommunitymetrics.org/) 
 * Open Source Software Development Analytics Conference
 * January 29, 2016 - Brussels (before FOSDEM)
-* 5 minute Lightning Talk
+* 17:05 - 17:10: A 5 minute Lightning Talk
 
 ## Getting Started
 
-* [Install Gource](http://gource.io/) 
-* Run Gource on your repo with the default options
+[Install Gource](http://gource.io/) and run it on your repo with the default options
 
     gource /path/to/your/repo
 
