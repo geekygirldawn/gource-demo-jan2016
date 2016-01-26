@@ -10,6 +10,12 @@ better for your repo.
 * January 29, 2016 - Brussels (before FOSDEM)
 * 17:05 - 17:10: A 5 minute Lightning Talk
 
+## About Dawn Foster
+
+* PhD Student at the [University of Greenwich](http://www2.gre.ac.uk/) studying the [Linux kernel community](http://fastwonderblog.com/academic/)
+* [Consultant](http://fastwonderblog.com/consulting/) at [The Scale Factory](http://www.scalefactory.com/)
+* [Learn more](http://fastwonderblog.com)
+
 ## Getting Started
 
 [Install Gource](http://gource.io/) and run it on your repo with the default options
