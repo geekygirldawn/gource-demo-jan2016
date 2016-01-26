@@ -43,17 +43,17 @@ Run Gource with many more configuration options (see details below).
 * --title "MailingListStats AKA mlstats" 
 * --key (shows color key for file types)
 * --start-date '2014-05-01'
-* --user-image-dir images (Directory with .jpg or .png images of users 'Full Name.png' for avatars
+* --user-image-dir images (Directory with .jpg or .png images of users 'Full Name.png' for avatars)
 
 **Speed up repos with less activity:**
 
 * -a 1 (auto skip to next entry if nothing happens in x seconds - default 3)
-* -s .05 (speed in seconds per say - default 10
+* -s .05 (speed in seconds per day - default 10)
 
 **While Gource is running:**
 
 * Space bar to pause
-* <Ctrl> + / - to speed up or slow down
+* Ctrl + / - to speed up or slow down
 * Use arrow keys to move camera
 * Mouse over timeline widget at the bottom and click on a date to move in time.
 
@@ -62,7 +62,8 @@ Run Gource with many more configuration options (see details below).
 More info about [Gource](http://gource.io/),
 including downloads and information about installation. You can
 also look at the presentation I did about Gource at the
-[FLOSS Community Metrics Meeting](http://www.slideshare.net/geekygirldawn/floss-community-metrics-gource-custom-log-formats) on using the Gource [custom log format](https://github.com/acaudwell/Gource/wiki/Custom-Log-Format)
+[FLOSS Community Metrics Meeting](http://www.slideshare.net/geekygirldawn/floss-community-metrics-gource-custom-log-formats) 
+in Portland in July 2015 on using the Gource [custom log format](https://github.com/acaudwell/Gource/wiki/Custom-Log-Format)
 option. 
 
 I recommend playing around with the different controls to speed things up / slow down or show / hide
