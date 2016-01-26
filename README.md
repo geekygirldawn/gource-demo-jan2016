@@ -15,7 +15,7 @@ better for your repo.
 
 * PhD Student at the [University of Greenwich](http://www2.gre.ac.uk/) studying the [Linux kernel community](http://fastwonderblog.com/academic/)
 * [Consultant](http://fastwonderblog.com/consulting/) at [The Scale Factory](http://www.scalefactory.com/)
-* [Learn more](http://fastwonderblog.com)
+* [Learn more](http://fastwonderblog.com) about Dawn
 
 ## Getting Started
 
@@ -68,6 +68,7 @@ Keep in mind that recording the video can take a long time. I didn't time it, bu
 on my MacBook Air to record a 31 second video. 
 
 The [Gource video](https://youtu.be/KM2YMfOYOPY) for this demo was generated using this command:
+
     gource -f --logo images/bitergia_logo_sm.png --title "MailingListStats AKA mlstats" 
     --key --start-date '2014-01-01' --user-image-dir images -a 1 -s .05 
     --path ../MailingListStats -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec 
