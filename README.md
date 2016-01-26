@@ -77,3 +77,7 @@ for different types of data (large projects, long-lived projects, etc.)
 
 You can also check out [Gourciferous](https://github.com/FOSSRIT/gourciferous) for visualizing multiple
 repos in a single visualization using the custom log format.
+
+For large repos, Gource can take a while to start the visualization while it parses the logs. In this case,
+you might want to record it as a video to show people or upload online. There are 
+[instructions and examples](https://github.com/acaudwell/Gource/wiki/Videos) on the Gource wiki.
