@@ -59,6 +59,20 @@ Run Gource with many more configuration options (see details below).
 * Use arrow keys to move camera
 * Mouse over timeline widget at the bottom and click on a date to move in time.
 
+## Recording Gource Videos
+
+For large repos, Gource can take a while to start the visualization while it parses the logs. In this case,
+you might want to record it as a video to show people or upload online. There are 
+[instructions and examples](https://github.com/acaudwell/Gource/wiki/Videos) on the Gource wiki.
+Keep in mind that recording the video can take a long time. I didn't time it, but it took 5-10 minutes
+on my MacBook Air to record a 31 second video. 
+
+The [Gource video](https://youtu.be/KM2YMfOYOPY) for this demo was generated using this command:
+    gource -f --logo images/bitergia_logo_sm.png --title "MailingListStats AKA mlstats" 
+    --key --start-date '2014-01-01' --user-image-dir images -a 1 -s .05 
+    --path ../MailingListStats -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec 
+    libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4
+
 ## More Info about Gource
 
 More info about [Gource](http://gource.io/),
@@ -79,8 +93,3 @@ for different types of data (large projects, long-lived projects, etc.)
 You can also check out [Gourciferous](https://github.com/FOSSRIT/gourciferous) for visualizing multiple
 repos in a single visualization using the custom log format.
 
-For large repos, Gource can take a while to start the visualization while it parses the logs. In this case,
-you might want to record it as a video to show people or upload online. There are 
-[instructions and examples](https://github.com/acaudwell/Gource/wiki/Videos) on the Gource wiki.
-Keep in mind that recording the video can take a long time. I didn't time it, but it took 5-10 minutes
-on my MacBook Air to record a 31 second video.
