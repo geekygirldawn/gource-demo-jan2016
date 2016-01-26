@@ -28,7 +28,8 @@ Run Gource with many more configuration options (see details below).
 
 **Small Repository with Light Activity**
 
-    gource --logo images/bitergia_logo_sm.png --title "MailingListStats AKA mlstats" --key --start-date '2014-01-01' --user-image-dir images -a 1 -s .05 --path ../MailingListStats
+    gource --logo images/bitergia_logo_sm.png --title "MailingListStats AKA mlstats" 
+    --key --start-date '2014-01-01' --user-image-dir images -a 1 -s .05 --path ../MailingListStats
 
 ## Gource Configuration Options
 
